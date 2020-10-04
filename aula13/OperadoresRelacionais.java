@@ -1,0 +1,38 @@
+package aula13;
+
+public class OperadoresRelacionais {
+
+	public static void main(String[] args) {
+		
+		int valor1 = 1;
+		int valor2 = 2;
+		
+		System.out.println("valor1 == valor2: "+(valor1 == valor2)); 
+		                                      //sempre que a gente compara operadores relacionais 
+											  //o resultado será um boolean
+		
+		System.out.println("valor1 != valor2: "+(valor1 != valor2));
+		System.out.println("valor1 > valor2: "+(valor1 > valor2));
+		System.out.println("valor1 >= valor2: "+(valor1 >= valor2));
+		System.out.println("valor1 < valor2: "+(valor1 < valor2));
+		System.out.println("valor1 <= valor2:  "+(valor1 <= valor2));
+		
+	}
+
+}
+
+/*
+ Operadores Relacionais
+ 
+ 	'==' - igual a;
+ 	'!=' - diferente de;
+ 	'>' - maior que;
+ 	'<' - menor que;
+ 	'>=' - maior ou igual a;
+ 	'<=' - menor ou igual a;
+ 	
+ 	
+ 	
+ 
+
+ */
