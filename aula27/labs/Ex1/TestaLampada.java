@@ -6,8 +6,10 @@ public class TestaLampada {
 
 		Lampada lamp = new Lampada();
 		
-		lamp.liga(true);
-		lamp.desliga(false);
+		lamp.liga();
+		System.out.println(lamp.isLigada());
+		lamp.desliga();
+		System.out.println(lamp.isLigada());
 	}
 
 }
